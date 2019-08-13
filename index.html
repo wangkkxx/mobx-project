@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .div .ipt{
+            width:400px;
+            height:40px;
+            font-size: 24px;
+            padding: 0 20px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+            outline: 0;
+        }
+        .todo-item{
+            display: flex;
+            align-items: center;
+            height: 40px;
+            border-bottom: 1px solid #aaa;
+        }
+        .todo-item .check{
+            margin-right: 20px;
+            font-size: 24px;
+        }
+        .todo-item .title{
+            font-size: 24px;
+        }
+        .todo-item .title.finished{
+            text-decoration: line-through;
+            color:#aaa;
+        }
+        .delete{
+            vertical-align: baseline;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+        .delete:hover{
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <div id='root'></div>
+    <script src='dist/main.js'></script>
+</body>
+</html>
